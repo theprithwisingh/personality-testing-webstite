@@ -1,0 +1,88 @@
+/* Base styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #333;
+    height: 60px;
+  }
+  
+  .logo h2 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .auth-buttons a {
+    background-color: #ff6347;
+    padding: 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons a:hover {
+    background-color: #ff4500;
+  }
+  
+  /* Hide the mobile icon for larger screens */
+  .mobile-menu-icon {
+    display: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles for mobile */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000; /* Ensure it is above other elements */
+    }
+  
+    .nav-links-mobile li {
+      margin: 10px 0;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  }
+  
+  /* Make sure the mobile menu disappears */
+  .nav-links-mobile {
+    display: none; /* Initially hidden */
+  }
+  
+  /* When the mobile menu is toggled, show it */
+  .show-mobile-menu {
+    display: flex; /* Show menu on toggle */
+  }
+  

@@ -7,9 +7,10 @@ const LandingPage = () => {
     <div className="image-container">
       <img src={Screenshot} alt="Personality Test Banner" className="responsive-image" />
       <div className="text-content">
-        <h1>It's so incredible to finally be understood.</h1>
-        <p>Only 10 minutes to get a "freakishly accurate" description of who you are and why you do things the way you do.</p>
-        <button className="cta-button">Take the Test</button>
+        <h1>Discover Your True Personality</h1>
+        <p>Unlock the secrets to your unique strengths, behaviors, and preferences with our in-depth personality test.</p>
+        <button className="test-button">Take the Free Test</button>
+        <p> Unlock the best version of yourself. Take the test in under 10 minutes!</p>
       </div>
     </div>
   );
