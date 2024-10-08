@@ -7,14 +7,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h2>Logos</h2>
+        <h2>your<span>own</span>way</h2>
       </div>
 
-      {/* Center: Menu Links */}
       <ul className={isMobile ? "nav-links-mobile show-mobile-menu" : "nav-links"}>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Personality Test</a></li>
+        <li><a href="#about">Type of Personality</a></li>
+        <li><a href="#contact">Others</a></li>
       </ul>
 
       {/* Right: Authentication Buttons */}

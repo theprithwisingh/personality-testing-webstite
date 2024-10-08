@@ -1,111 +1,28 @@
-/*
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #fff;
-    height: 100px;
-    border-bottom: 2px solid #191970;
-  }
-  
-  .logo h2 {
-    color: #191970;
-    font-size: 2.5rem;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .nav-links li {
-    margin: 0 20px;
-  }
-  
-  .nav-links li a {
-    color: #191970;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  .auth-buttons a {
-    background-color: #191970;
-    padding: 8px 16px;
-    border-radius: 5px;
-    color: white;
-  }
-  
-  .auth-buttons a:hover {
-    background-color: #191970;
-  }
-  
-
-  .mobile-menu-icon {
-    display: none;
-    color: #191970;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-  
-    .nav-links-mobile {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      right: 0;
-      background-color: #333;
-      padding: 10px 0;
-      text-align: center;
-      z-index: 1000;
-    }
-  
-    .nav-links-mobile li {
-      margin: 10px 0;
-    }
-  
-    .mobile-menu-icon {
-      display: block;
-    }
-  }
-  
-  .nav-links-mobile {
-    display: none; 
-  }
-  
-
-  .show-mobile-menu {
-    display: flex;
-  }
-  */
-
-/* Base styles */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    background-color: #333;
-    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #3d30a2;
+    height: 85px;
     z-index: 1000;
   }
   
-  /* Logo on the left */
+
   .logo h2 {
-    color: #fff;
-    font-size: 1.5rem;
+    color: #000000;
+    font-size:2rem;
+    font-family: "Playwrite DE Grund", cursive;
     margin: 0;
     flex: 1;
   }
-  
-  /* Center: Menu Links (desktop view) */
+  .logo h2 span{
+    font-family: "Playwrite DE Grund", cursive;
+    color: #EA4335;
+  }
+
   .nav-links {
     display: flex;
     justify-content: center;
@@ -119,7 +36,7 @@
   }
   
   .nav-links li a {
-    color: white;
+    color: #3d30a2;
     text-decoration: none;
     font-size: 1.2rem;
   }

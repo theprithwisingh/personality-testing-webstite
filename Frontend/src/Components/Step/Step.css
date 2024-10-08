@@ -1,0 +1,38 @@
+.test-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #48a868; /* Background color of your choice */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .personality-image {
+    width: 100%; /* Adjust the width based on your design */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .test-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .test-step {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .test-step h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .test-step p {
+    font-size: 1em;
+    color: #666;
+  }
+  

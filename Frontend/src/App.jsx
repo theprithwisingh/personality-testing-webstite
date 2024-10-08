@@ -5,6 +5,7 @@ import LandingPage from './Pages/LandingPage/LandingPage';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Pages/Footer/Footer'
 import Card from './Components/Card/Card';
+import Step from './Components/Step/Step';
 function App() {
   return (
     <div>
@@ -12,10 +13,12 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage/>} />
       </Routes>
-      <Card/>
+      <Step/>
+      <Step/>
       <Footer/>
     </div>
   );
 }
 
 export default App;
+
