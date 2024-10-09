@@ -1,0 +1,35 @@
+.testimonials-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f9;
+}
+
+.testimonials-section h2 {
+  font-size: 2em;
+  color: #6a1b9a;
+}
+
+.testimonials-section p {
+  font-size: 1.1em;
+  color: #757575;
+  margin-bottom: 40px;
+}
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .testimonials-grid {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+}

@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Pages/Footer/Footer'
 import Card from './Components/Card/Card';
 import Step from './Components/Step/Step';
+import Testimonials from './Pages/Testimonial/Testimonials'
 function App() {
   return (
     <div>
@@ -14,7 +15,7 @@ function App() {
         <Route path="/" element={<LandingPage/>} />
       </Routes>
       <Step/>
-      <Step/>
+      <Testimonials/>
       <Footer/>
     </div>
   );
