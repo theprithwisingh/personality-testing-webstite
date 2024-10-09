@@ -7,17 +7,17 @@ const Step = () => {
         <div className="test-step">
         <img src="https://dummyimage.com/100x100/000/fff" alt="Test" className="personality-image" />
           <h3>Complete the Test</h3>
-          <p>Be yourself and answer honestly to find out your personality type.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div className="test-step">
         <img src="https://dummyimage.com/100x100/000/fff" alt="Test" className="personality-image" />
-          <h3>View Detailed Results</h3>
-          <p>Learn how your personality type influences many areas of your life.</p>
+          <h3>Complete the Test</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div className="test-step">
         <img src="https://dummyimage.com/100x100/000/fff" alt="Test" className="personality-image" />
-          <h3>Unlock Your Potential</h3>
-          <p>Grow into the person you want to be with your optional Premium Suite.</p>
+          <h3>Complete the Test</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>
